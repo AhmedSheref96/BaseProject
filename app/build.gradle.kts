@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.el3sas.vodafone_task"
+    namespace = "com.android.task.ui"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.el3sas.vodafone_task"
+        applicationId = "com.android.task"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.el3sas.vodafone_task
+package com.android.task.domain
 
 import org.junit.Test
 

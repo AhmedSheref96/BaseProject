@@ -19,7 +19,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Vodafone-Task"
+rootProject.name = "Task"
 include(":app")
 include(":data")
+//include(":domain")
 include(":domain")

@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.el3sas.data"
+    namespace = "com.android.task.data"
     compileSdk = 35
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 21
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")

@@ -1,4 +1,4 @@
-package com.el3sas.vodafone_task.ui.theme
+package com.android.task.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
