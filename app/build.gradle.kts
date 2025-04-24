@@ -76,6 +76,9 @@ dependencies {
 
     implementation(libs.androidx.navigation.compose)
 
+    implementation(libs.androidx.paging.runtime.ktx)
+    testImplementation(libs.androidx.paging.common.ktx)
+
     implementation(project(":data"))
     implementation(project(":domain"))
 

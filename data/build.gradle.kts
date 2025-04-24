@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.org.junit.experimental.categories.Categories.CategoryFilter.exclude
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -51,6 +53,18 @@ dependencies {
 
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
+
+    implementation(libs.androidx.paging.runtime.ktx)
+    testImplementation(libs.androidx.paging.common.ktx)
+
+    implementation(platform(libs.okhttp.bom))
+
+    implementation(libs.logginginterceptor) {
+        exclude(group = "org.json", module = "json")
+    }
+
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
 
     implementation(project(":domain"))
 }
